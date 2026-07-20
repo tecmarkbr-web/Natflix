@@ -8,21 +8,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!--
-  GOOGLE TAG (gtag.js) — cobre GA4 e a conversão de clique do Google Ads.
-  SUBSTITUA os dois IDs abaixo pelos seus antes de publicar:
-
-  1) GA4_MEASUREMENT_ID → encontre em analytics.google.com > Administrador >
-     Fluxos de dados > Web > ID de mensuração (formato G-XXXXXXXXXX)
-  2) GOOGLE_ADS_CONVERSION_ID → encontre em Google Ads > Ferramentas e
-     configurações > Conversões > crie uma ação de conversão do tipo
-     "Envolvimento com o site" ou "Outro" > o snippet mostrado terá o
-     formato AW-XXXXXXXXX/XXXXXXXXXXXXXXXXXXX (ID + rótulo)
-
-  Enquanto os IDs não forem substituídos, os scripts abaixo carregam mas
-  não enviam nada útil — nenhum dado é perdido, só fique de ficar sem
-  registrar clique até trocar.
--->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MH84XHVG');</script>
+<!-- End Google Tag Manager -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -368,19 +360,10 @@
   <p>Página independente de pré-venda. Natflix Fitness é comercializado através da plataforma Hotmart. "Natflix" é um apelido do próprio produto, sem relação com serviços de streaming existentes.</p>
 </footer>
 
-<!--
-  IMPLANTAÇÃO / RASTREAMENTO
-  - GA4 e conversão de clique do Google Ads já instalados acima (gtag.js).
-    Falta apenas substituir G-XXXXXXXXXX e AW-XXXXXXXXX/label pelos IDs reais.
-  - Todos os cliques finais apontam para: https://go.hotmart.com/N106233276O?ap=58d2
-    (com &src={gclid} anexado automaticamente quando o clique vem do Google Ads)
-  - Antes de subir tráfego pago: revise contra a política de Anúncios de Saúde do Meta
-    (sem antes/depois, sem meta de peso, sem linguagem de insatisfação corporal) e contra
-    a política de Saúde e Medicamentos do Google Ads.
-  - Próximo passo pendente: configurar o Webhook (Postback) da Hotmart no evento
-    "Compra Aprovada" e importar essas conversões como Conversões Offline no Google Ads,
-    casando pelo valor de src (ver aba "Rastreamento" da planilha da campanha).
--->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH84XHVG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <script>
   // Rastreamento dos cliques nos botões que levam pra Hotmart.
